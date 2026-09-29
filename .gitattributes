@@ -1,0 +1,13 @@
+# Do not edit manually
+# This file is used to override language statistics
+# Language detection rules
+src/*.ts linguist-detectable
+
+*.svg text
+
+dist/* linguist-vendored
+*.png binary
+*.yaml linguist-detectable=false
+docs/*.html linguist-vendored
+
+build/* linguist-vendored
